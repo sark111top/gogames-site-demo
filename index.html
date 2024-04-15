@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>MaxGraph New Site</title>
+  <link rel="preload" href="fonts/MullerRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="header__container container flex-v-center-between">
+    <div class="header__logo-container">
+      <img class="header__logo" src="img/logo.png" alt="">
+    </div>
+    <nav class="header__nav">
+      <ul class="header__list list-reset flex-v-center" data-menu>
+        <li class="header__item">
+          <a class="header__link href="#"">Home</a>
+        </li>
+        <li class="header__item">
+          <a class="header__link href="#">About us</a>
+        </li>
+        <li class="header__item">
+          <a class="header__link href="#">Prices</a>
+        </li>
+        <li class="header__item">
+          <a class="header__link href="#"">Rules</a>
+        </li>
+        <li class="header__item">
+          <button class="header__btn btn btn-reset">Get Started Now</button>
+        </li>
+    </nav>
+  </div>
+</header>
+
+    <main class="main">
+      <div class="hero">
+  <div class="hero__container flex container">
+    <div class="hero__content rel">
+      <h3 class="hero__text">Gaming Consoles</h3>
+      <h1 class="hero__title title">Try It, Rent It,</h1>
+      <h2 class="hero__subtitle">Save $50!</h2>
+      <p class="hero__descr descr">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters as opposed.</p>
+      <button class="hero__btn btn btn-reset">Get Started Now</button>
+    </div>
+    <div class="hero__images rel">
+      <img class="hero__card1 abs" src="img/hero-card1.jpeg" alt="">
+      <img class="hero__circle_left abs" src="img/circle-left.png" alt="">
+      <img class="hero__circle_middle abs" src="img/circle-middle.png" alt="">
+      <img class="hero__circle_right abs" src="img/circle-right.png" alt="">
+      <img class="hero__lines abs" src="img/hero-red-lines.png" alt="">
+      <img class="hero__gamer abs" src="img/hero-gamer.png" alt="">
+      <img class="hero__card2 abs" src="img/hero-card2.jpeg" alt="">
+    </div>
+  </div>
+</div>
+
+      <div class="vr">
+  <div class="vr__container container grid">
+    <div class="vr__images rel">
+      <img class="vr__screen abs" src="img/vr-screen.png" alt="">
+      <img class="vr__men abs" src="img/vr-men.png" alt="">
+      <img class="vr__shadow abs" src="img/vr-shadow.png" alt="">
+      <img class="vr__men-shadow abs" src="img/vr-shadow-men.png" alt="">
+    </div>
+    <div class="vr__content">
+      <h3 class="vr__subtitle">About VR Glasses</h3>
+      <h2 class="vr__title title">The New VR Glasses Series</h2>
+      <p class="vr__descr descr">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters as opposed.</p>
+      <buuton class="vr__btn btn btn-reset">Get Started Now</buuton>
+    </div>
+  </div>
+</div>
+
+      <div class="xboxps">
+  <div class="xboxps__container container grid">
+    <div class="xboxps__content">
+      <h3 class="xboxps__subtitle subtitle">About XBOX, PS</h3>
+      <h2 class="xboxps__title title">The New Xbox, PS Series</h2>
+      <p class="xboxps__descr descr">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters as opposed.</p>
+      <button class="xboxps__btn btn-reset btn">Get Started Now</button>
+    </div>
+    <div class="xboxps__images rel">
+      <img src="img/xboxps-flower-left.png" alt="" class="xboxps__flower_left abs">
+      <img src="img/xboxps-cloud.png" alt="" class="xboxps__cloud abs">
+      <img src="img/xboxps-flower-right.png" alt="" class="xboxps__flower_right abs">
+      <img src="img/xboxps-gamepad.png" alt="" class="xboxps__gamepad abs">
+      <img src="img/xboxps-man1.png" alt="" class="xboxps__man1 abs">
+      <img src="img/xboxps-man2.png" alt="" class="xboxps__man2 abs">
+      <img src="img/xboxps-mecha1.png" alt="" class="xboxps__mecha1 abs">
+      <img src="img/xboxps-mecha2.png" alt="" class="xboxps__mecha2 abs">
+    </div>
+  </div>
+</div>
+
+      <div class="tariff">
+  <div class="tariff__container container">
+    <h3 class="tariff__subtitle">Our Pricing</h3>
+    <h2 class="tariff__title title">Choose Your Plan</h2>
+    <div class="tariff__plans-container flex-v-center-between" onclick="activeInactiveEl(event)">
+      <div class="tariff__plan-card rel">
+        <h3 class="tariff__name">Basic</h3>
+        <div class="tariff__plan-title flex-v-center">
+          <h2 class="tariff__price">$50.00</h2>
+          <span class="tariff__hour"> / Per Hour</span>
+        </div>
+        <ul class="tariff__list list-reset">
+          <li class="tariff__item">
+            <span class="tariff__text">10 users included</span>
+          </li>
+          <li class="tariff__item">
+            <span class="tariff__text">2 GB of storage</span>
+          </li>
+          <li class="tariff__item">
+            <span class="tariff__text">Email support</span>
+          </li>
+          <li class="tariff__item">
+            <span class="tariff__text">Help center access</span>
+          </li>
+          <li class="tariff__item">
+            <span class="tariff__text">10 users included</span>
+          </li>
+        </ul>
+        <button class="tariff__btn btn btn-reset">Select This Plan</button>
+      </div>
+      <div class="tariff__plan-card rel tariff__plan-card--active">
+        <h3 class="tariff__name">Standard</h3>
+        <div class="tariff__plan-title flex-v-center">
+          <h2 class="tariff__price">$95.00</h2>
+          <span class="tariff__hour"> / Per Hour</span>
+        </div>
+        <ul class="tariff__list list-reset">
+          <li class="tariff__item">
+            <span class="tariff__text">10 users included</span>
+          </li>
+          <li class="tariff__item">
+            <span class="tariff__text">2 GB of storage</span>
+          </li>
+          <li class="tariff__item">
+            <span class="tariff__text">Email support</span>
+          </li>
+          <li class="tariff__item">
+            <span class="tariff__text">Help center access</span>
+          </li>
+          <li class="tariff__item">
+            <span class="tariff__text">10 users included</span>
+          </li>
+        </ul>
+        <button class="tariff__btn btn btn-reset">Select This Plan</button>
+      </div>
+      <div class="tariff__plan-card rel">
+        <h3 class="tariff__name">Premium</h3>
+        <div class="tariff__plan-title flex">
+          <h2 class="tariff__price">$125.00</h2>
+          <span class="tariff__hour"> / Per Hour</span>
+        </div>
+        <ul class="tariff__list list-reset">
+          <li class="tariff__item">
+            <span class="tariff__text">10 users included</span>
+          </li>
+          <li class="tariff__item">
+            <span class="tariff__text">2 GB of storage</span>
+          </li>
+          <li class="tariff__item">
+            <span class="tariff__text">Email support</span>
+          </li>
+          <li class="tariff__item">
+            <span class="tariff__text">Help center access</span>
+          </li>
+          <li class="tariff__item">
+            <span class="tariff__text">10 users included</span>
+          </li>
+        </ul>
+        <button class="tariff__btn btn btn-reset">Select This Plan</button>
+      </div>
+    </div>
+    <div class="swiper tariff__slider">
+      <div class="swiper-wrapper tariff__swiper-wrapper tariff__plans-container__small-tablet" onclick="activeInactiveEl(event)">
+        <div class="swiper-slide tariff__slide">
+          <div class="tariff__plan-card rel">
+            <h3 class="tariff__name">Basic</h3>
+            <div class="tariff__plan-title flex-v-center">
+              <h2 class="tariff__price">$50.00</h2>
+              <span class="tariff__hour"> / Per Hour</span>
+            </div>
+            <ul class="tariff__list list-reset">
+              <li class="tariff__item">
+                <span class="tariff__text">10 users included</span>
+              </li>
+              <li class="tariff__item">
+                <span class="tariff__text">2 GB of storage</span>
+              </li>
+              <li class="tariff__item">
+                <span class="tariff__text">Email support</span>
+              </li>
+              <li class="tariff__item">
+                <span class="tariff__text">Help center access</span>
+              </li>
+              <li class="tariff__item">
+                <span class="tariff__text">10 users included</span>
+              </li>
+            </ul>
+            <button class="tariff__btn btn btn-reset">Select This Plan</button>
+          </div>
+        </div>
+        <div class="swiper-slide tariff__slide">
+          <div class="tariff__plan-card rel tariff__plan-card--active">
+            <h3 class="tariff__name">Standard</h3>
+            <div class="tariff__plan-title flex-v-center">
+              <h2 class="tariff__price">$95.00</h2>
+              <span class="tariff__hour"> / Per Hour</span>
+            </div>
+            <ul class="tariff__list list-reset">
+              <li class="tariff__item">
+                <span class="tariff__text">10 users included</span>
+              </li>
+              <li class="tariff__item">
+                <span class="tariff__text">2 GB of storage</span>
+              </li>
+              <li class="tariff__item">
+                <span class="tariff__text">Email support</span>
+              </li>
+              <li class="tariff__item">
+                <span class="tariff__text">Help center access</span>
+              </li>
+              <li class="tariff__item">
+                <span class="tariff__text">10 users included</span>
+              </li>
+            </ul>
+            <button class="tariff__btn btn btn-reset">Select This Plan</button>
+          </div>
+        </div>
+        <div class="swiper-slide tariff__slide">
+          <div class="tariff__plan-card rel">
+            <h3 class="tariff__name">Premium</h3>
+            <div class="tariff__plan-title flex">
+              <h2 class="tariff__price">$125.00</h2>
+              <span class="tariff__hour"> / Per Hour</span>
+            </div>
+            <ul class="tariff__list list-reset">
+              <li class="tariff__item">
+                <span class="tariff__text">10 users included</span>
+              </li>
+              <li class="tariff__item">
+                <span class="tariff__text">2 GB of storage</span>
+              </li>
+              <li class="tariff__item">
+                <span class="tariff__text">Email support</span>
+              </li>
+              <li class="tariff__item">
+                <span class="tariff__text">Help center access</span>
+              </li>
+              <li class="tariff__item">
+                <span class="tariff__text">10 users included</span>
+              </li>
+            </ul>
+            <button class="tariff__btn btn btn-reset">Select This Plan</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper tariff__slider_mob">
+      <div class="swiper-wrapper tariff__swiper-wrapper_mob tariff__plans-container__small-tablet" onclick="activeInactiveEl(event)">
+        <div class="swiper-slide tariff__slide_mob">
+          <div class="tariff__plan-card rel">
+            <h3 class="tariff__name">Basic</h3>
+            <div class="tariff__plan-title flex-v-center">
+              <h2 class="tariff__price">$50.00</h2>
+              <span class="tariff__hour"> / Per Hour</span>
+            </div>
+            <ul class="tariff__list list-reset">
+              <li class="tariff__item">
+                <span class="tariff__text">10 users included</span>
+              </li>
+              <li class="tariff__item">
+                <span class="tariff__text">2 GB of storage</span>
+              </li>
+              <li class="tariff__item">
+                <span class="tariff__text">Email support</span>
+              </li>
+              <li class="tariff__item">
+                <span class="tariff__text">Help center access</span>
+              </li>
+              <li class="tariff__item">
+                <span class="tariff__text">10 users included</span>
+              </li>
+            </ul>
+            <button class="tariff__btn btn btn-reset">Select This Plan</button>
+          </div>
+        </div>
+        <div class="swiper-slide tariff__slide_mob">
+          <div class="tariff__plan-card rel tariff__plan-card--active">
+            <h3 class="tariff__name">Standard</h3>
+            <div class="tariff__plan-title flex-v-center">
+              <h2 class="tariff__price">$95.00</h2>
+              <span class="tariff__hour"> / Per Hour</span>
+            </div>
+            <ul class="tariff__list list-reset">
+              <li class="tariff__item">
+                <span class="tariff__text">10 users included</span>
+              </li>
+              <li class="tariff__item">
+                <span class="tariff__text">2 GB of storage</span>
+              </li>
+              <li class="tariff__item">
+                <span class="tariff__text">Email support</span>
+              </li>
+              <li class="tariff__item">
+                <span class="tariff__text">Help center access</span>
+              </li>
+              <li class="tariff__item">
+                <span class="tariff__text">10 users included</span>
+              </li>
+            </ul>
+            <button class="tariff__btn btn btn-reset">Select This Plan</button>
+          </div>
+        </div>
+        <div class="swiper-slide tariff__slide_mob">
+          <div class="tariff__plan-card rel">
+            <h3 class="tariff__name">Premium</h3>
+            <div class="tariff__plan-title flex">
+              <h2 class="tariff__price">$125.00</h2>
+              <span class="tariff__hour"> / Per Hour</span>
+            </div>
+            <ul class="tariff__list list-reset">
+              <li class="tariff__item">
+                <span class="tariff__text">10 users included</span>
+              </li>
+              <li class="tariff__item">
+                <span class="tariff__text">2 GB of storage</span>
+              </li>
+              <li class="tariff__item">
+                <span class="tariff__text">Email support</span>
+              </li>
+              <li class="tariff__item">
+                <span class="tariff__text">Help center access</span>
+              </li>
+              <li class="tariff__item">
+                <span class="tariff__text">10 users included</span>
+              </li>
+            </ul>
+            <button class="tariff__btn btn btn-reset">Select This Plan</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    function activeInactiveEl(e) {
+      console.log('hello');
+      if (document.querySelector('div.tariff__plan-card--active') !== null) {
+          document.querySelector('div.tariff__plan-card--active').classList.remove('tariff__plan-card--active');
+      }
+      const parentCard = e.target.closest('.tariff__plan-card');
+      parentCard.className += ' tariff__plan-card--active';
+    }
+  </script>
+</div>
+
+    </main>
+    <footer class="footer">
+  <div class="footer__container container flex-v-center-between">
+    <div class="footer__top flex-v-center">
+      <img class="footer__logo" src="img/logo.png" alt="">
+      <p class="footer__copyrights">Copyright © 2022 HEALAS.LT. All Rights Reserved.</p></div>
+    <div class="footer__socials flex-v-center">
+      <img  class="footer__logo footer__logo--mobile" src="img/logo.png" alt="">
+      <a class="footer__link" href="">
+        <img class="footer__social footer__social--facebook" src="img/facebook.svg" alt="">
+      </a>
+      <a class="footer__link" href="">
+        <img class="footer__social footer__social--twitter" src="img/twitter.svg" alt="">
+      </a>
+      <a class="footer__link" href="">
+        <img class="footer__social footer__social--instagram" src="img/instagram.svg" alt="">
+      </a>
+    </div>
+  </div>
+</footer>
+
+  </div>
+</body>
+
+</html>
